@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>StartupTurboPilot – KI-Business in 24h starten</title>
+  <meta name="description" content="Starte mit StartupTurboPilot in nur 24 Stunden ein vollautomatisiertes KI-Business. Website, Shop, Zahlungsanbindung und Kundengewinnung – alles aus einer Hand.">
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background: #f7f8fb; }
+    header { background: #6c47ff; color: #fff; padding: 2em 1em; text-align: center; }
+    nav { margin-top: 1em; }
+    nav a { color: #fff; margin: 0 1em; text-decoration: none; font-weight: bold; }
+    main { max-width: 850px; margin: 2em auto; background: #fff; border-radius: 12px; box-shadow: 0 2px 12px #0001; padding: 2em; }
+    section { margin-bottom: 2em; }
+    .pakete { display: flex; gap: 2em; flex-wrap: wrap; }
+    .paket { flex: 1; background: #f4f3ff; padding: 2em; border-radius: 12px; box-shadow: 0 1px 4px #0001; min-width: 250px; }
+    .preis { font-size: 1.8em; color: #6c47ff; font-weight: bold; }
+    .button { display: inline-block; background: #6c47ff; color: #fff; padding: 16px 32px; border-radius: 8px; text-decoration: none; font-weight: 700; margin-top: 1em; transition: background 0.2s;}
+    .button:hover { background: #4b2996; }
+    #kontakt input, #kontakt textarea { width: 98%; margin: 8px 0; padding: 10px; border-radius: 6px; border: 1px solid #bbb; font-size: 1em; }
+    #kontakt button { background: #6c47ff; color: #fff; border: none; padding: 12px 28px; border-radius: 6px; font-size: 1.1em; margin-top: 1em;}
+    footer { text-align: center; padding: 1.5em 0; color: #fff; background: #6c47ff; margin-top: 3em; border-radius: 0 0 12px 12px; }
+    .legal { font-size: 0.9em; color: #666; margin-top: 1em; }
+    .impressum, .datenschutz { background: #f4f3ff; border-radius: 12px; padding: 1.2em; box-shadow: 0 1px 4px #0001; margin-bottom: 1em;}
+    .supportzeiten { font-size: 1em; color: #333; margin: 1em 0 0 0; font-weight: 500; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🚀 Starte dein eigenes KI-Business in 24h!</h1>
+    <nav>
+      <a href="#pakete">Preise</a>
+      <a href="#kontakt">Kontakt</a>
+      <a href="#impressum">Impressum</a>
+      <a href="#datenschutz">Datenschutz</a>
+    </nav>
+  </header>
+  <main>
+    <section id="hero">
+      <h2>Vollautomatisierte Online-Business-Erstellung</h2>
+      <p>Mit wenigen Klicks – KI erledigt ALLES für dich! Webseiten, Onlineshop, Kunden, Social Media Posts, Zahlungsanbindung. <b>Echtes Einkommen. Weltweit.</b></p>
+    </section>
+    <section id="pakete">
+      <h2>Unsere Pakete</h2>
+      <div class="pakete">
+        <div class="paket">
+          <h3>Monats-Abo</h3>
+          <p>Für schnelle Starter, monatlich kündbar!</p>
+          <p class="preis">19 €/Monat</p>
+          <a class="button" href="https://buy.stripe.com/7sYeVccFiedwe2G2CF0RG04" target="_blank">Jetzt starten</a>
+        </div>
+        <div class="paket">
+          <h3>Jahres-Abo</h3>
+          <p>Beste Konditionen! Volle Power für 1 Jahr.</p>
+          <p class="preis">199 €/Jahr</p>
+          <a class="button" href="https://buy.stripe.com/cNi00iaxa5H02jY0ux0RG05" target="_blank">Jetzt sichern</a>
+        </div>
+      </div>
+    </section>
+    <section id="kontakt">
+      <h2>Kontakt & Onboarding</h2>
+      <form id="kontakt" name="kontakt" method="POST" data-netlify="true">
+        <input type="text" name="name" placeholder="Dein Name" required>
+        <input type="email" name="email" placeholder="Deine E-Mail" required>
+        <textarea name="nachricht" placeholder="Deine Nachricht/Frage" required></textarea>
+        <button type="submit">Absenden</button>
+      </form>
+      <div class="legal">
+        * Die Daten werden nur zur Bearbeitung deiner Anfrage verwendet. Weitere Infos siehe Datenschutz unten.
+      </div>
+      <div class="supportzeiten">
+        <b>Support anfragen täglich 10-12 Uhr Montag - Freitag<br>
+        Telefon: 0178 1822743</b>
+      </div>
+    </section>
+    <section id="impressum" class="impressum">
+      <h2>Impressum</h2>
+      <p>
+        <strong>Angaben gemäß § 5 TMG</strong><br>
+        StartupTurboPilot<br>
+        Andreas Bitzer<br>
+        Auf der Brück 8<br>
+        51645 Gummersbach<br>
+        Deutschland<br>
+        <br>
+        <strong>Kontakt</strong><br>
+        Telefon: 0178 1822743<br>
+        E-Mail: info@startupturbopilot.de<br>
+        <br>
+        <strong>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:</strong><br>
+        Andreas Bitzer, Adresse wie oben
+      </p>
+    </section>
+    <section id="datenschutz" class="datenschutz">
+      <h2>Datenschutzerklärung</h2>
+      <p>
+        <strong>1. Verantwortlicher</strong><br>
+        Andreas Bitzer, StartupTurboPilot, Auf der Brück 8, 51645 Gummersbach, info@startupturbopilot.de
+      </p>
+      <p>
+        <strong>2. Welche Daten werden erfasst?</strong><br>
+        Beim Ausfüllen des Kontaktformulars werden Name, E-Mail und Nachricht übermittelt. Diese Daten werden ausschließlich zur Bearbeitung deiner Anfrage verwendet.
+      </p>
+      <p>
+        <strong>3. Weitergabe an Dritte</strong><br>
+        Es erfolgt keine Weitergabe deiner Daten an Dritte.
+      </p>
+      <p>
+        <strong>4. Rechte der betroffenen Personen</strong><br>
+        Du hast das Recht auf Auskunft, Berichtigung und Löschung deiner gespeicherten Daten. Kontakt: info@startupturbopilot.de
+      </p>
+      <p>
+        <strong>5. Hinweis auf Netlify Forms</strong><br>
+        Die Übermittlung erfolgt verschlüsselt (HTTPS) an unseren Hosting-Provider Netlify. Es gelten die <a href="https://www.netlify.com/privacy/" target="_blank">Datenschutzbestimmungen von Netlify</a>.
+      </p>
+      <p>
+        <strong>6. Kontakt Datenschutz</strong><br>
+        Für Datenschutzfragen erreichst du uns unter info@startupturbopilot.de
+      </p>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 StartupTurboPilot – Andreas Bitzer</p>
+  </footer>
+</body>
+</html>
